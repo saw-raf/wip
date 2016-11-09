@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+double root(double, int);
+
+int main()
+{
+	return 0;
+}
+
+double root(double number, int)
+{
+	double result=number;
+	double tmp=pow(result,(n-1));
+	dou
+}
