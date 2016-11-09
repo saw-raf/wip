@@ -20,9 +20,9 @@ int main ()
 	scanf("%d",&r_zloty);
 	assert(r_zloty>=0);
 
-	puts("Podaj liczbe groszy: ");
+	puts("Podaj liczbe groszy (mniejsza niz 100): ");
 	scanf("%d",&r_groszy);
-	assert(r_groszy>=0);
+	assert(r_groszy>=0 && r_groszy<100);
 
 	r=(float)(r_zloty+0.01*r_groszy);
 	i=0;
