@@ -1,10 +1,9 @@
-//sadsaasa
 #include <stdio.h>
 #include <assert.h>
 #include <stdlib.h>
 #define NO_NOMINALS 14
 #define NO_BANKNOTES 5
-#define INT_MAX 2000000 //to do zmiany
+#define INT_MAX 2000000 //to do zmiany <limit.h> ????
 
 
 //dynamicznie
