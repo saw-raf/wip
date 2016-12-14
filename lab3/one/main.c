@@ -1,5 +1,5 @@
-#include <stdlib.h>
 #include <string.h>
+#include <stdlib.h>
 #include <assert.h>
 #include <stdio.h>
 #include "fun.h"
@@ -24,5 +24,6 @@ int main(void)
 		printf("To palindrom\n");
 	else
 		puts("To nie palindrom");
+
 	return 0;
 }

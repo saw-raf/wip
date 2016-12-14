@@ -1,3 +1,3 @@
 #include <stdbool.h>
 
-bool palindrom(char napis []);
+bool palindrom(char str []);
