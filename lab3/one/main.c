@@ -9,7 +9,7 @@ int main(void)
 	char *str;
 	int n;
 
-	puts("Podaj dlugosc slowa:");
+	puts("Podaj dlugosc slowa: ");
 	scanf("%d",&n);
 	assert(n>0);
 

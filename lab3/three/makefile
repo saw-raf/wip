@@ -3,14 +3,14 @@ CFLAGS=-Wall --pedantic -std=c11
 
 all: main
 
-main: main.o palindrom.o
-	clang -o main main.o palindrom.o
+main: main.c phi.c
+	clang -o main main.c phi.c
 
 main.o: main.c
 	clang -c main.c
 
-palindrom.o: palindrom.c
-	clang -c palindrom.c
+palindrom.o: phi.c
+	clang -c phi.c
 
 clean:
 	rm -f main *.o *~

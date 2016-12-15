@@ -1,9 +1,15 @@
-double result(double a, double b, double eps)
+#include <math.h>
+#include <limits.h>
+#include <assert.h>
+#include "fun.h"
+
+double bisection(double a, double b, double eps)
 {
-	int i=0;
+	long int i=0;
 	double s;//approximation of zero of a function
+
 	s=(a+b)/2;
-	while((abs(f(s))>eps)
+	while((fabs(f(s))>eps))
 	{
 		if(f(a)*f(s)<0)
 			b=s;
@@ -11,6 +17,8 @@ double result(double a, double b, double eps)
 			a=s;
 		s=(a+b)/2;
 		i++;
+		assert(i<LONG_MAX);
 	}
+
 	return s;
 }
