@@ -15,7 +15,7 @@ int main(void)
 
 	str=(char*)malloc((n+1)*sizeof(char));
 
-	puts("Podaj napis:");
+	puts("Podaj napis (bez polskich znakow):");
 	scanf("%s",str);
 
 	assert(strlen(str)==n);

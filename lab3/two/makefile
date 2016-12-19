@@ -1,5 +1,3 @@
-CC=clang
-CFLAGS=-Wall --pedantic -std=c11
 
 all: main
 

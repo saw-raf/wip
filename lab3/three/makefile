@@ -1,10 +1,8 @@
-CC=clang
-CFLAGS=-Wall --pedantic -std=c11
 
 all: main
 
-main: main.c phi.c
-	clang -o main main.c phi.c
+main: main.o phi.o
+	clang -o main main.o phi.o
 
 main.o: main.c
 	clang -c main.c
